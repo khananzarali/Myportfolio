@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anzar Ali Khan | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Anzar Ali Khan, a Full Stack Web Developer specializing in React, Node.js, and building accessible, high-performance digital experiences.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=VT323&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Go to homepage">AK.</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark/Light Mode">
+                        <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    </button>
+                    <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero container reveal">
+            <div class="hero-content">
+                <p class="greeting">> System initialized...</p>
+                <h1 class="name">Anzar Ali Khan</h1>
+                <h2 class="role">Pixel Crafter & Web Dev</h2>
+                <p class="summary">I build things for the web. Focusing on accessible, high-performance, and beautifully designed digital experiences with a cozy vibe.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="anzarcv.pdf" class="btn btn-outline" download>Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/anzarali" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anzaralikhan/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="mailto:khananzarali7@gmail.com" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="face.png" alt="Anzar Ali Khan">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-text">
+                <p>Hello! I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS taught me a lot about layout and design!</p>
+                <p>Fast-forward to today, and I've had the privilege of working on a variety of digital products. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.</p>
+                <p>Here are a few technologies I've been working with recently:</p>
+                <ul class="tech-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>TypeScript</li>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="container reveal">
+            <h2 class="section-title">Where I've Worked</h2>
+            <div class="experience-tabs">
+                <div class="tab-list" role="tablist" aria-label="Job positions">
+                    <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="panel-freelance" id="tab-freelance">Freelance</button>
+                    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-intern" id="tab-intern" tabindex="-1">Internship</button>
+                </div>
+                <div class="tab-panels">
+                    <div id="panel-freelance" class="tab-panel active" role="tabpanel" aria-labelledby="tab-freelance">
+                        <h3>Full Stack Developer <span class="company">@ Freelance</span></h3>
+                        <p class="date">2023 - Present</p>
+                        <ul class="experience-list">
+                            <li>Built responsive, performant web applications for diverse clients across multiple industries</li>
+                            <li>Collaborated with design teams to implement pixel-perfect UI/UX from Figma designs</li>
+                            <li>Optimized web applications for maximum speed and scalability</li>
+                            <li>Implemented responsive designs using modern CSS and utility-first frameworks</li>
+                        </ul>
+                    </div>
+                    <div id="panel-intern" class="tab-panel" role="tabpanel" aria-labelledby="tab-intern">
+                        <h3>Web Development Intern <span class="company">@ Tech Company</span></h3>
+                        <p class="date">2022 - 2023</p>
+                        <ul class="experience-list">
+                            <li>Assisted in building and maintaining web applications using React and Node.js</li>
+                            <li>Participated in code reviews and learned best practices for clean, maintainable code</li>
+                            <li>Worked with senior developers to implement new features and fix bugs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container reveal">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3 / SCSS</span>
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Accessibility (a11y)</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container reveal">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>E-Commerce Dashboard</h3>
+                        <p>A responsive admin dashboard built with React and Tailwind. Features include data visualization, dark/light mode, and real-time updates.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>Tailwind</span><span>Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A full-stack task management application with drag-and-drop kanban boards, real-time collaboration, and user authentication.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>A sleek weather application with 7-day forecasts, location search, and interactive maps. Uses OpenWeatherMap API.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span><span>CSS Grid</span><span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Accessible Component Library</h3>
+                        <p>A collection of fully accessible UI components adhering strictly to WAI-ARIA authoring practices.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>a11y</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="container reveal contact-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <div class="contact-links">
+                <a href="mailto:khananzarali7@gmail.com" class="btn btn-primary">Say Hello</a>
+                <a href="https://www.linkedin.com/in/anzaralikhan/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Anzar Ali Khan. Designed & Built with care.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
